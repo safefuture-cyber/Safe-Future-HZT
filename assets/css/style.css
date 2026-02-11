@@ -229,7 +229,7 @@ label{display:block; font-weight:700; margin:10px 0 6px}
   display:flex;
   align-items:center;   /* yazı ilə eyni xətt */
   gap:8px;
-  font-weight:900;
+  font-weight:90;
 }
 .brand-dot{
   width:10px;height:10px;border-radius:50%;
@@ -330,7 +330,7 @@ label{display:block; font-weight:700; margin:10px 0 6px}
   }
 }
 .brand-logo{
-  height:26px;     /* əsas ölçü */
+  height:6px;     /* əsas ölçü */
   width:auto;      /* proporsiya qorunsun */
   object-fit:contain;
   display:block;
