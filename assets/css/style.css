@@ -330,8 +330,31 @@ label{display:block; font-weight:700; margin:10px 0 6px}
   }
 }
 .brand-logo{
-  height:6px;     /* əsas ölçü */
-  width:auto;      /* proporsiya qorunsun */
+  height:26px !important;   /* navbar üçün ideal */
+  width:26px !important;    /* heç vaxt uzanmasın */
   object-fit:contain;
-  display:block;
+  flex: 0 0 auto;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-weight:800;
+  line-height:1;
+}
+
+.brand-logo-wrap{
+  width:28px;
+  height:28px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  border-radius:10px;
+}
+.brand-logo{
+  width:100%;
+  height:100%;
+  object-fit:contain;
 }
