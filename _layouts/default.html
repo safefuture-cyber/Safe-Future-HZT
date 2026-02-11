@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="az">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>
+      {% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}
+    </title>
+
+    <meta name="description" content="{{ site.description }}" />
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+    <script defer src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <span class="brand-dot"></span>
+          <span class="brand-text">Safe Future</span>
+          <span class="brand-sub">HZT</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Menyu aç/bağla" aria-expanded="false">
+          ☰
+        </button>
+
+        <nav class="site-nav" data-nav>
+          <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Ana Səhifə</a>
+          <a href="{{ '/resurslar/' | relative_url }}" class="{% if page.url contains '/resurslar' %}active{% endif %}">Resurslar</a>
+          <a href="{{ '/komek-al/' | relative_url }}" class="{% if page.url contains '/komek-al' %}active{% endif %}">Kömək Al</a>
+          <a href="{{ '/tedbirler/' | relative_url }}" class="{% if page.url contains '/tedbirler' %}active{% endif %}">Təlimlər</a>
+          <a href="{{ '/blog/' | relative_url }}" class="{% if page.url contains '/blog' %}active{% endif %}">Blog</a>
+          <a href="{{ '/haqqimizda/' | relative_url }}" class="{% if page.url contains '/haqqimizda' %}active{% endif %}">Haqqımızda</a>
+          <a href="{{ '/elaqe/' | relative_url }}" class="{% if page.url contains '/elaqe' %}active{% endif %}">Əlaqə</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-main">
+      <div class="container">
+        {{ content }}
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>Safe Future</strong> — Kiber təqibə qarşı təhlükəsiz rəqəmsal gələcək
+        </div>
+        <div class="muted">
+          © {{ "now" | date: "%Y" }} · GitHub Pages + Jekyll
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

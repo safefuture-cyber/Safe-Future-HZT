@@ -1,0 +1,18 @@
+title: Safe Future HZT
+description: "Safe Future - Kiber təqibə qarşı təhlükəsiz rəqəmsal gələcək"
+url: "https://github.com/safefuture-cyber/Safe-Future.git"
+baseurl: "/Safe-Future"  # Məs: "/safe-future-hzt"
+
+theme: null
+markdown: kramdown
+permalink: pretty
+
+collections: []
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+plugins: []
