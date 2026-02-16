@@ -174,6 +174,24 @@ a{color:inherit;text-decoration:none}
 .footer-inner{display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap}
 .muted{color:var(--muted)}
 
+.site-footer .social-links {
+  margin: 10px 0;
+  display: flex;
+  gap: 12px;
+  justify-content: center; 
+}
+
+.site-footer .social-links a {
+  color: var(--muted);       
+  font-size: 1.5rem;        
+  transition: color 0.3s, transform 0.3s; 
+}
+
+.site-footer .social-links a:hover {
+  color: var(--accent);     
+  transform: scale(1.2);
+}
+
 form .row{display:grid; grid-template-columns:1fr 1fr; gap:12px}
 input, textarea{
   width:100%;
