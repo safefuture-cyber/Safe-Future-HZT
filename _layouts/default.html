@@ -11,6 +11,17 @@
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
     <script defer src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <script>
+      window.SAFE_FUTURE_FIREBASE_CONFIG = {
+        apiKey: "REPLACE_ME",
+        authDomain: "REPLACE_ME.firebaseapp.com",
+        projectId: "REPLACE_ME",
+        appId: "REPLACE_ME",
+      };
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+    <script defer src="{{ '/assets/js/auth.js' | relative_url }}"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   </head>
 
@@ -39,6 +50,21 @@
           <a href="{{ '/elaqe/' | relative_url }}" class="{% if page.url contains '/elaqe' %}active{% endif %}">Əlaqə</a>
           <a href="{{ '/faq/' | relative_url }}" class="{% if page.url contains '/faq' %}active{% endif %}">FAQ</a>
         </nav>
+        <div class="auth-nav" data-auth-area>
+          <button type="button" class="btn nav-auth" data-auth-open>
+            Sign up
+          </button>
+          <div class="auth-user" data-auth-user hidden>
+            <button type="button" class="auth-user-btn">
+              <span class="auth-avatar" data-auth-avatar></span>
+              <span class="auth-name" data-auth-name></span>
+            </button>
+            <div class="auth-user-menu" data-auth-user-menu>
+              <div class="auth-email" data-auth-email></div>
+              <button type="button" class="auth-signout" data-auth-signout>Çıxış</button>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -47,6 +73,41 @@
         {{ content }}
       </div>
     </main>
+
+    <div class="auth-backdrop" data-auth-backdrop hidden>
+      <div class="auth-modal" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+        <button type="button" class="auth-close" data-auth-close aria-label="Bağla">×</button>
+        <h2 id="auth-title" class="auth-title">Hesab yarat / daxil ol</h2>
+        <p class="auth-subtitle">Hesabın varsa daxil ol, yoxdursa qısa qeydiyyat et.</p>
+
+        <div class="auth-tabs">
+          <button type="button" class="auth-tab is-active" data-auth-mode="signin">Daxil ol</button>
+          <button type="button" class="auth-tab" data-auth-mode="signup">Qeydiyyat</button>
+        </div>
+
+        <form class="auth-form" data-auth-form>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required autocomplete="email" />
+          </label>
+          <label>
+            <span>Şifrə</span>
+            <input type="password" name="password" required minlength="6" autocomplete="current-password" />
+          </label>
+          <button type="submit" class="btn primary auth-submit" data-auth-submit>Daxil ol</button>
+          <div class="auth-error" data-auth-error></div>
+        </form>
+
+        <div class="auth-divider">
+          <span>və ya</span>
+        </div>
+
+        <button type="button" class="btn auth-google" data-auth-google>
+          <i class="fab fa-google"></i>
+          <span>Google ilə davam et</span>
+        </button>
+      </div>
+    </div>
 
     <footer class="site-footer">
       <div class="container footer-inner">
