@@ -11,6 +11,16 @@
 
 // Scroll reveal for sections/cards
 (function () {
+  // Automatically apply reveal to common content blocks across all pages
+  const autoTargets = document.querySelectorAll(
+    ".hero-card, .hero-stats, .grid .card, .section"
+  );
+  autoTargets.forEach((el) => {
+    if (!el.hasAttribute("data-reveal")) {
+      el.setAttribute("data-reveal", "fade-up");
+    }
+  });
+
   const revealEls = document.querySelectorAll("[data-reveal]");
   if (!revealEls.length) return;
 
