@@ -75,6 +75,43 @@ a{color:inherit;text-decoration:none}
 
 .site-main{padding:28px 0 44px}
 
+/* Scroll reveal animations */
+[data-reveal]{
+  opacity:0;
+  transform: translateY(26px);
+  transition:
+    opacity .7s ease-out,
+    transform .7s ease-out;
+  will-change: opacity, transform;
+}
+
+[data-reveal].is-visible{
+  opacity:1;
+  transform:none;
+}
+
+/* Slight stagger for home page cards */
+.grid .card[data-reveal]{
+  transition-delay:.04s;
+}
+.grid .card:nth-child(2)[data-reveal]{
+  transition-delay:.10s;
+}
+.grid .card:nth-child(3)[data-reveal]{
+  transition-delay:.16s;
+}
+.grid .card:nth-child(4)[data-reveal]{
+  transition-delay:.22s;
+}
+
+@media (prefers-reduced-motion: reduce){
+  [data-reveal]{
+    opacity:1;
+    transform:none;
+    transition:none;
+  }
+}
+
 .hero{padding:10px 0 18px}
 .hero-card{
   background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
