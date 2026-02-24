@@ -111,12 +111,11 @@
   }
 
   openBtn.addEventListener("click", () => {
-    if (!firebaseReady) {
-      alert(
-        "Auth üçün backend hələ qoşulmayıb. Firebase config əlavə edəndən sonra bu pəncərə real işləyəcək."
-      );
-    }
     openModal();
+    if (!firebaseReady && errorEl) {
+      errorEl.textContent =
+        "Hazırda auth test rejimindədir. Firebase config əlavə edəndən sonra giriş tam real işləyəcək.";
+    }
   });
 
   if (closeBtn) {
