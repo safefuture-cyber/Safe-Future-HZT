@@ -35,9 +35,11 @@ body::before{
     radial-gradient(120% 200% at 50% 100%, rgba(59,130,246,.8), transparent 65%);
   opacity:.95;
   mix-blend-mode:screen;
-  filter: blur(55px);
+  filter: blur(55px) hue-rotate(0deg);
   transform:translate3d(0,0,0);
-  animation: auroraWave 9s ease-in-out infinite alternate;
+  animation:
+    auroraWave 9s ease-in-out infinite alternate,
+    auroraHue 14s ease-in-out infinite alternate;
   pointer-events:none;
   z-index:-1;
 }
@@ -51,6 +53,18 @@ body::before{
   }
   100%{
     transform: translate3d(-16%,-6%,0) skewX(16deg) scale(1.06);
+  }
+}
+
+@keyframes auroraHue{
+  0%{
+    filter: blur(55px) hue-rotate(-20deg);
+  }
+  50%{
+    filter: blur(55px) hue-rotate(25deg);
+  }
+  100%{
+    filter: blur(55px) hue-rotate(60deg);
   }
 }
 
