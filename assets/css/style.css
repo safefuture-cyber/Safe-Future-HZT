@@ -401,16 +401,20 @@ body.auth-open{
 .hero::before{
   content:"";
   position:absolute;
-  inset:-80px -140px 10px;
+  left:50%;
+  top:10%;
+  width:520px;
+  height:520px;
+  transform:translateX(-50%);
   background:
-    radial-gradient(160% 180% at 0% 60%, rgba(249,115,22,.85), transparent 60%),
-    radial-gradient(140% 160% at 20% 20%, rgba(249,115,22,.4), transparent 60%);
-  filter: blur(10px);
-  opacity:.95;
+    radial-gradient(circle at 50% 60%, rgba(249,115,22,.9), transparent 60%),
+    radial-gradient(circle at 30% 30%, rgba(249,115,22,.45), transparent 70%);
+  filter: blur(18px);
+  opacity:.9;
   mix-blend-mode:screen;
   pointer-events:none;
   z-index:-1;
-  animation: heroFlame 16s ease-in-out infinite alternate;
+  animation: heroFlame 18s ease-in-out infinite alternate;
 }
 .hero-card{
   background: rgba(0,0,0,.52);
@@ -447,13 +451,13 @@ body.auth-open{
 
 @keyframes heroFlame{
   0%{
-    transform: translate3d(-10%,4%,0) scale(1.02);
+    transform: translate3d(-6%,4%,0) scale(1.02);
   }
   50%{
-    transform: translate3d(6%,-4%,0) scale(1.06);
+    transform: translate3d(4%,-6%,0) scale(1.06);
   }
   100%{
-    transform: translate3d(-4%,-2%,0) scale(1.03);
+    transform: translate3d(-3%,-2%,0) scale(1.03);
   }
 }
 
@@ -716,8 +720,8 @@ label{display:block; font-weight:700; margin:10px 0 6px}
   }
 }
 .brand-logo-wrap{
-  width:40px;
-  height:40px;
+  width:34px;
+  height:34px;
   display:inline-flex;
   align-items:center;
   justify-content:center;
