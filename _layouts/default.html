@@ -70,6 +70,17 @@
 
     <main class="site-main">
       <div class="container">
+        {% if page.layout != 'home' %}
+        <div class="search-demo page-search" data-reveal="fade-up">
+          <div class="search-demo-bar">
+            <span class="search-icon" aria-hidden="true"></span>
+            <span class="search-text">Onlayn məni nə narahat edir?</span>
+          </div>
+          <p class="search-caption">
+            Axtardığın mövzu nə olardı? Safe Future həmin mövzu üzrə təhlükəsiz resursları toplasın.
+          </p>
+        </div>
+        {% endif %}
         {{ content }}
       </div>
     </main>

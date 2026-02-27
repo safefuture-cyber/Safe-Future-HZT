@@ -441,6 +441,10 @@ body.auth-open{
   margin: 8px 0 18px;
   max-width: 420px;
 }
+.page-search{
+  margin-top: 4px;
+  margin-bottom: 22px;
+}
 .search-demo-bar{
   position:relative;
   display:flex;
