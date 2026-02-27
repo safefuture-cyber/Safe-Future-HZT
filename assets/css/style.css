@@ -25,13 +25,14 @@ body{
 body::before{
   content:"";
   position:fixed;
-  inset:-40%;
+  inset:-45%;
   background:
-    radial-gradient(circle at 10% 0%, rgba(249,115,22,.50), transparent 60%),
-    radial-gradient(circle at 90% 100%, rgba(249,115,22,.35), transparent 60%);
-  opacity:.7;
+    radial-gradient(circle at 5% 0%, rgba(252,132,45,.65), transparent 60%),
+    radial-gradient(circle at 95% 15%, rgba(248,153,72,.45), transparent 65%),
+    radial-gradient(circle at 40% 100%, rgba(220,90,30,.40), transparent 70%);
+  opacity:.8;
   mix-blend-mode:screen;
-  filter: blur(42px);
+  filter: blur(46px);
   transform:translate3d(0,0,0);
   animation: flameWave 26s ease-in-out infinite alternate;
   pointer-events:none;
@@ -40,13 +41,13 @@ body::before{
 
 @keyframes flameWave{
   0%{
-    transform: translate3d(-8%,6%,0) scale(1.02) rotate(-4deg);
+    transform: translate3d(-10%,8%,0) scale(1.02) rotate(-6deg);
   }
   50%{
-    transform: translate3d(6%,-8%,0) scale(1.08) rotate(2deg);
+    transform: translate3d(8%,-10%,0) scale(1.08) rotate(3deg);
   }
   100%{
-    transform: translate3d(-5%,-4%,0) scale(1.03) rotate(4deg);
+    transform: translate3d(-6%,-6%,0) scale(1.03) rotate(6deg);
   }
 }
 
