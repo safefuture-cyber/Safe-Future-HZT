@@ -34,20 +34,20 @@ body::before{
   mix-blend-mode:screen;
   filter: blur(40px);
   transform:translate3d(0,0,0);
-  animation: flameWave 22s ease-in-out infinite alternate;
+  animation: flameWave 16s ease-in-out infinite alternate;
   pointer-events:none;
   z-index:-1;
 }
 
 @keyframes flameWave{
   0%{
-    transform: translate3d(-4%,2%,0) scale(1.05) rotate(-2deg);
+    transform: translate3d(-10%,4%,0) scale(1.05) rotate(-3deg);
   }
   50%{
-    transform: translate3d(4%,-3%,0) scale(1.08) rotate(1deg);
+    transform: translate3d(8%,-6%,0) scale(1.12) rotate(2deg);
   }
   100%{
-    transform: translate3d(-3%,-1%,0) scale(1.04) rotate(3deg);
+    transform: translate3d(-6%,-2%,0) scale(1.06) rotate(4deg);
   }
 }
 
