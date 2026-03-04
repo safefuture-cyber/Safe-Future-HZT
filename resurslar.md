@@ -207,17 +207,17 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
     <b>Onlayn platformalara şikayət</b>
     <p>Kiberbullinq çox vaxt onlayn platformaların istifadə qaydalarını pozur. Sosial media və oyun platformalarında şikayət və məxfilik alətləri mövcuddur. Bu platformalara şikayət etməklə zərərli məzmunun silinməsinə və istifadəçinin məhdudlaşdırılmasına nail olmaq olar.</p>
     <ul>  
-      <li>YouTube Link Target:https://support.google.com/youtube/answer/2802027</li>
-      <li>TikTok Link Target:https://www.tiktok.com/safety/en/countering-hate/</li>
-      <li>Snapchat Link Target:https://help.snapchat.com/hc/en-us/articles/7012399221652-How-do-I-report-abuse-or-illegal-content-on-Snapchat</li>
-      <li>Instagram Link Target:https://help.instagram.com/192435014247952</li>
-      <li>Facebook Link Target:https://www.facebook.com/help/181495968648557</li>
-      <li>Discord Link Target:https://discord.com/safety/360044103651-reporting-abusive-behavior-to-discord</li>
-      <li>X (formerly Twitter) Link Target:https://help.x.com/en/safety-and-security/report-abusive-behavior</li>
-      <li>Twitch Link Target:https://safety.twitch.tv/s/article/Filing-a-Report?language=en_US</li>
-      <li>Xbox Party Chat Link Target:https://support.xbox.com/en-US/help/family-online-safety/enforcement/file-a-complaint</li>
-      <li>PlayStation Party Chat Link Target:https://www.playstation.com/en-us/support/account/ps5-report-behaviour/</li>
-      <li>Tumblr Link Target:https://help.tumblr.com/reporting-content/</li>
+      <li><a href ="https://support.google.com/youtube/answer/2802027">Youtube</a></li>
+      <li><a href ="https://www.tiktok.com/safety/en/countering-hate/">TikTok</a></li>
+      <li><a href="https://help.snapchat.com/hc/en-us/articles/7012399221652-How-do-I-report-abuse-or-illegal-content-on-Snapchat">Snapchat</a></li>
+      <li<a href ="https://help.instagram.com/192435014247952">Instagram</a></li>
+      <li><a href ="https://www.facebook.com/help/181495968648557">Facebook</a></li>
+      <li><a href ="https://discord.com/safety/360044103651-reporting-abusive-behavior-to-discord">Discord</a></li>
+      <li><a href ="https://help.x.com/en/safety-and-security/report-abusive-behavior">X</a></li>
+      <li><a href ="https://safety.twitch.tv/s/article/Filing-a-Report?language=en_US">Twitch</a></li>
+      <li><a href ="https://support.xbox.com/en-US/help/family-online-safety/enforcement/file-a-complaint">Xbox</a></li>
+      <li><a href ="https://www.playstation.com/en-us/support/account/ps5-report-behaviour/">PlayStation</a></li>
+      <li><a href="https://help.tumblr.com/reporting-content/">Tumblr</a></li>
     </ul>  
     <p>Hüquq-mühafizə orqanlarına şikayət</p>
     <p>Aşağıdakı hallar olduqda kiberbullinq cinayət sayılır və polisə müraciət edilməlidir:</p>
