@@ -1196,3 +1196,62 @@ ul.report-links li a:hover {
   background: #4f46e5;
   border-radius: 2px;
 }
+body.qanunvericilik-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  color: #1c1c1c;
+  line-height: 1.7;
+  padding: 2rem;
+}
+
+.qanunvericilik-page .page-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0b3d91; /* dərin mavi başlıq */
+  margin-bottom: 0.5rem;
+}
+
+.qanunvericilik-page .kicker {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.qanunvericilik-page .section {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  padding: 1.8rem;
+  margin-bottom: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.qanunvericilik-page .section:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.qanunvericilik-page ol {
+  padding-left: 1.2rem;
+}
+
+.qanunvericilik-page li {
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+}
+
+.qanunvericilik-page a {
+  color: #0b3d91;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.qanunvericilik-page a:hover {
+  color: #ff6b6b;
+  text-decoration: underline;
+}
+
+.qanunvericilik-page strong {
+  color: #0b3d91;
+}
