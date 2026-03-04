@@ -9,18 +9,30 @@
 
     <meta name="description" content="Safe Future - Kiber təqibə qarşı təhlükəsiz rəqəmsal gələcək" />
 
-    <link rel="stylesheet" href="/Safe-Future-HZT/assets/css/style.css" />
-    <script defer src="/Safe-Future-HZT/assets/js/main.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css?v=13" />
+    <script defer src="/assets/js/main.js?v=3"></script>
+    <script>
+      window.SAFE_FUTURE_FIREBASE_CONFIG = {
+        apiKey: "REPLACE_ME",
+        authDomain: "REPLACE_ME.firebaseapp.com",
+        projectId: "REPLACE_ME",
+        appId: "REPLACE_ME",
+      };
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+    <script defer src="/assets/js/auth.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   </head>
 
 
   <body>
     <header class="site-header">
-      <div class="container header-inner">
-        <a class="brand" href="/Safe-Future-HZT/">
+      <div class="site-header-shell">
+        <div class="container header-inner">
+        <a class="brand" href="/">
             <span class="brand-logo-wrap">
-                <img src="/Safe-Future-HZT/assets/images/logo2.png" alt="Safe Future logo" class="brand-logo">
+                <img src="/assets/images/logo2.png" alt="Safe Future logo" class="brand-logo">
             </span>
             <span class="brand-text">Safe Future</span>
         </a>
@@ -30,20 +42,47 @@
         </button>
 
         <nav class="site-nav" data-nav>
-          <a href="/Safe-Future-HZT/" class="">Ana Səhifə</a>
-          <a href="/Safe-Future-HZT/resurslar/" class="">Resurslar</a>
-          <a href="/Safe-Future-HZT/komek-al/" class="">Kömək Al</a>
-          <a href="/Safe-Future-HZT/tedbirler/" class="">Təlimlər</a>
-          <a href="/Safe-Future-HZT/blog/" class="">Blog</a>
-          <a href="/Safe-Future-HZT/haqqimizda/" class="active">Haqqımızda</a>
-          <a href="/Safe-Future-HZT/elaqe/" class="">Əlaqə</a>
-          <a href="/Safe-Future-HZT/faq/" class="">FAQ</a>
+          <a href="/" class="">Ana Səhifə</a>
+          <a href="/resurslar/" class="">Resurslar</a>
+          <a href="/komek-al/" class="">Kömək Al</a>
+          <a href="/tedbirler/" class="">Təlimlər</a>
+          <a href="/blog/" class="">Blog</a>
+          <a href="/haqqimizda/" class="active">Haqqımızda</a>
+          <a href="/elaqe/" class="">Əlaqə</a>
+          <a href="/faq/" class="">FAQ</a>
         </nav>
+        <div class="auth-nav" data-auth-area>
+          <button type="button" class="btn nav-auth" data-auth-open>
+            Sign up
+          </button>
+          <div class="auth-user" data-auth-user hidden>
+            <button type="button" class="auth-user-btn">
+              <span class="auth-avatar" data-auth-avatar></span>
+              <span class="auth-name" data-auth-name></span>
+            </button>
+            <div class="auth-user-menu" data-auth-user-menu>
+              <div class="auth-email" data-auth-email></div>
+              <button type="button" class="auth-signout" data-auth-signout>Çıxış</button>
+            </div>
+          </div>
+        </div>
+        </div>
       </div>
     </header>
 
     <main class="site-main">
       <div class="container">
+        
+        <div class="search-demo page-search" data-reveal="fade-up">
+          <div class="search-demo-bar">
+            <span class="search-icon" aria-hidden="true"></span>
+            <span class="search-text">Onlayn məni nə narahat edir?</span>
+          </div>
+          <p class="search-caption">
+            Axtardığın mövzu nə olardı? Safe Future həmin mövzu üzrə təhlükəsiz resursları toplasın.
+          </p>
+        </div>
+        
         <h1 id="haqqımızda">Haqqımızda</h1>
 <p class="kicker">Layihənin məqsədi, komandası və əməkdaş qurumlar.</p>
 
@@ -77,13 +116,52 @@
       </div>
     </main>
 
+    <div class="auth-backdrop" data-auth-backdrop hidden>
+      <div class="auth-modal" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+        <button type="button" class="auth-close" data-auth-close aria-label="Bağla">×</button>
+        <h2 id="auth-title" class="auth-title">Hesab yarat / daxil ol</h2>
+        <p class="auth-subtitle">Hesabın varsa daxil ol, yoxdursa qısa qeydiyyat et.</p>
+
+        <div class="auth-tabs">
+          <button type="button" class="auth-tab is-active" data-auth-mode="signin">Daxil ol</button>
+          <button type="button" class="auth-tab" data-auth-mode="signup">Qeydiyyat</button>
+        </div>
+
+        <form class="auth-form" data-auth-form>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required autocomplete="email" />
+          </label>
+          <label>
+            <span>Şifrə</span>
+            <input type="password" name="password" required minlength="6" autocomplete="current-password" />
+          </label>
+          <button type="submit" class="btn primary auth-submit" data-auth-submit>Daxil ol</button>
+          <div class="auth-error" data-auth-error></div>
+        </form>
+
+        <div class="auth-divider">
+          <span>və ya</span>
+        </div>
+
+        <button type="button" class="btn auth-google" data-auth-google>
+          <i class="fab fa-google"></i>
+          <span>Google ilə davam et</span>
+        </button>
+      </div>
+    </div>
+
     <footer class="site-footer">
       <div class="container footer-inner">
         <div>
           <strong>Safe Future</strong> — Kiber təqibə qarşı təhlükəsiz rəqəmsal gələcək
         </div>
         <div class="social-links">
-          <a href="https://instagram.com/safe_future_hzt" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://instagram.com/safe_future_hzt" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" target="_blank" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
         </div>
         <div class="muted">
           © 2026 · GitHub Pages + Jekyll
