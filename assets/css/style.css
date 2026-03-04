@@ -687,12 +687,12 @@ body.auth-open{
 }
 
 .hero-image-shell{
-  position:relative;
-  width:100%;
-  max-width:420px;
+  position: relative;
+  width: 100%;
+  max-width: 650px;  /* əvvəl 420px idi, indi böyüdülüb */
   aspect-ratio: 4 / 3;
   border-radius: 32px;
-  overflow:hidden;
+  overflow: hidden;
   background: radial-gradient(circle at 0% 0%, #4f46e5, #1f2937 55%, #020617 100%);
   box-shadow:
     0 28px 70px rgba(15,23,42,.55),
