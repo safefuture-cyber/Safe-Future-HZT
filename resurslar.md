@@ -108,7 +108,6 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
   <div class="accordion-content">
     <p>Uşağın onlayn fəaliyyətindən xəbərdar olun</p>
     <p>Uşaq kiberbullinq prosesində müxtəlif formalarda iştirak edə bilər. O, qurban ola bilər, başqasına bullinq edə bilər və ya sadəcə şahid ola bilər. Valideynlər, müəllimlər və digər böyüklər uşağın istifadə etdiyi bütün rəqəmsal platforma və tətbiqlərdən həmişə xəbərdar olmaya bilər. Uşaq nə qədər çox platformadan istifadə edirsə, kiberbullinq riski ilə qarşılaşma ehtimalı da bir o qədər artır.</p>
-    
     <p>Uşağın kiberbullinqə məruz qaldığını və ya başqasına bullinq etdiyini göstərən əlamətlər:</p>
     <ul>
       <li>Cihazdan istifadədə, xüsusilə mesajlaşmada, nəzərəçarpan artım və ya azalma</li>
@@ -118,7 +117,6 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
       <li>Əvvəllər sevdiyi sosial mühitlərdən uzaqlaşmağa başlamaq</li>
       <li>Özünə qapanmaq, depressiv görünmək və ya insanlara və fəaliyyətlərə marağını itirmək</li>
     </ul>
-
     <p>Kiberbullinq baş verəndə nə etməli:</p>
     <p>Əgər uşağın kiberbullinqdə iştirak etdiyini göstərən əlamətlər görürsünüzsə, onun rəqəmsal davranışını diqqətlə araşdırmaq vacibdir. Kiberbullinq bullinqin bir formasıdır və böyüklər ona da eyni ciddi yanaşmanı tətbiq etməlidir: qurbanı dəstəkləmək, bullinq davranışını dayandırmaq və uşaqlara bunun ciddi qəbul edildiyini göstərmək.</p>
     <p>Kiberbullinq onlayn mühitdə baş verdiyi üçün reaksiya da bir qədər fərqli olur. Şübhə olduqda bunları etmək olar:</p>
@@ -142,9 +140,7 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
     <p>Rəqəmsal media və tətbiqlər uşaqlara ünsiyyət qurmaq, yaradıcılıqlarını ifadə etmək, həmyaşıdları ilə əlaqə saxlamaq və hisslərini paylaşmaq imkanı verir. Lakin bunlar kiberbullinqin baş verə biləcəyi mühitə də çevrilə bilər. İstifadəçilərə insanları axtarmağa və onlar haqqında anonim şəkildə məlumat paylaşmağa imkan verən çoxsaylı pulsuz tətbiq və saytlar mövcuddur.</p>
     <p>Valideynlər uşaqlarının müntəzəm istifadə etdiyi tətbiqlərdən xəbərsiz ola və ya onların risklərini bilməyə bilərlər. Kiberbullinq tətbiq və saytlarda müxtəlif formalarda gizlənə bilər — məsələn, yoxa çıxan və ya cihazın zəng və mesaj tarixçəsində görünməyən mətnlər, videolar və veb-zənglər vasitəsilə.</p>
     <p>Bir çox tətbiq istifadəçilərin böyüklər üçün nəzərdə tutulan və ya zərərli məzmuna asan çıxışına da imkan yaradır. Məxfilik və məkan (lokasiya) ayarları uşaqları təqibə, kiberbullinqə, böyüklər üçün məzmuna məruz qalmağa və digər təhlükələrə qarşı daha həssas edə bilər.</p>
-
     <hr>
-
     <p><strong>Populyar sosial media tətbiqləri və saytlar:</strong></p>
     <ul>
       <li>Amino: İstifadəçilərə maraqlarına uyğun mövzular üzrə onlayn icmalara, çatlara, forumlara və qruplara qoşulmağa imkan verən tətbiq.</li>
@@ -178,9 +174,7 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
       <li>YUBO (əvvəlki adı YELLOW): Yeniyetmələr üçün “Tinder” kimi tanınan, profilləri sağa/sola sürüşdürmə prinsipi ilə uyğunlaşdıran tətbiq.</li>
       <li>YouNow: Yeniyetmələrin canlı yayım edib çat vasitəsilə ünsiyyət qurmasına imkan verən tətbiq.</li>
     </ul>
-
     <hr>
-
     <p><strong>Sosial media tətbiq və saytlarının riskləri:</strong></p>
     <ul>
       <li>SAYt və tətbiqlərdə zərərli məzmunun yoxlanması səviyyəsi çox fərqlidir.</li>
@@ -244,25 +238,21 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
       <span>Statistikalar</span>
       <span class="icon">+</span>
     </button>
-    <div class="accordion-content">
-      <p>WHO (World Health Oragnisation)bu gün 44 ölkə və regionda yeniyetmələr arasında zorakılıq və həmyaşıd zorakılığı nümunələrinə həsr olunmuş Health Behaviour in School-aged Children (HBSC) tədqiqatının ikinci cildini yayımlayıb.</p>
-      <p>Məktəbdə zorakılığın ümumi səviyyəsi 2018-ci ildən bəri sabit qalsa da, gənclərin ünsiyyətinin getdikcə rəqəmsallaşması səbəbindən kiberzorakılıq artıb və bu, yeniyetmələrin həyatına ciddi təsir göstərə bilər.</p>
-      <b>Əsas nəticələr</b>
-      <ul>
-        <li><b>Məktəbdə başqalarına zorakılıq etmək - </b>Yeniyetmələrin orta hesabla 6%-i məktəbdə başqalarına zorakılıq edir. Bu davranış oğlanlar arasında (8%) qızlara (5%) nisbətən daha çox yayılıb.</li>
-        <li><b>Məktəbdə zorakılığa məruz qalmaq - </b>
-        Yeniyetmələrin təxminən 11%-i məktəbdə zorakılığa məruz qaldığını bildirib. Oğlan və qızlar arasında ciddi fərq yoxdur.</li>
-        <li><b>Başqalarına kiberzorakılıq etmək - </b>
-        Təxminən 12% (hər 8 nəfərdən 1-i) yeniyetmə başqalarına kiberzorakılıq etdiyini deyir. Oğlanlar (14%) qızlardan (9%) daha çox bunu bildirir. Bu göstərici 2018-ci illə müqayisədə artıb: oğlanlarda 11%-dən, qızlarda 7%-dən yüksəlib.</li>
-        <li><b>Kiberzorakılığa məruz qalmaq - </b>
-        Yeniyetmələrin 15%-i (təxminən hər 6 nəfərdən 1-i) kiberzorakılığa məruz qalıb. Göstəricilər oğlanlarda 15%, qızlarda 16% olmaqla demək olar eynidir. Bu da 2018-ci illə müqayisədə artımı göstərir: oğlanlarda 12%-dən 15%-ə, qızlarda 13%-dən 16%-ə.</li>
-        <li><b>Fiziki dava - </b>
-        Hər 10 yeniyetmədən 1-i fiziki davaya qarışıb. Burada gender fərqi nəzərə çarpır: oğlanlarda 14%, qızlarda 6%.</li>
-      </ul>
-      <b>Genderə xas tendensiyalar və həllər</b>
-      <p>Nəticələr zorakılıq davranışında gender fərqlərini göstərir. Oğlanlar daha çox aqressiya və fiziki davaya meyllidir — bu isə emosiyaların tənzimlənməsi və müsbət sosial münasibətlərə yönəlmiş müdaxilələrin vacibliyini vurğulayır.
-      Digər tərəfdən, xüsusilə kiberzorakılıq sahəsində qızlar arasında artım rəqəmsal təhlükəsizlik, empatiya və inklüziv məktəb mühitini təşviq edən gender-həssas həllərə ehtiyacı göstərir.</p>
-      <b>Kiberzorakılıq: artan narahatlıq</b>
+  <div class="accordion-content">
+    <p>WHO (World Health Oragnisation)bu gün 44 ölkə və regionda yeniyetmələr arasında zorakılıq və həmyaşıd zorakılığı nümunələrinə həsr olunmuş Health Behaviour in School-aged Children (HBSC) tədqiqatının ikinci cildini yayımlayıb.</p>
+    <p>Məktəbdə zorakılığın ümumi səviyyəsi 2018-ci ildən bəri sabit qalsa da, gənclərin ünsiyyətinin getdikcə rəqəmsallaşması səbəbindən kiberzorakılıq artıb və bu, yeniyetmələrin həyatına ciddi təsir göstərə bilər.</p>
+    <b>Əsas nəticələr</b>
+    <ul>
+      <li><b>Məktəbdə başqalarına zorakılıq etmək - <b>Yeniyetmələrin orta hesabla 6%-i məktəbdə başqalarına zorakılıq edir. Bu davranış oğlanlar arasında (8%) qızlara (5%) nisbətən daha çox yayılıb.</li>
+      <li><b>Məktəbdə zorakılığa məruz qalmaq - </b>Yeniyetmələrin təxminən 11%-i məktəbdə zorakılığa məruz qaldığını bildirib. Oğlan və qızlar arasında ciddi fərq yoxdur.</li>
+      <li><b>Başqalarına kiberzorakılıq etmək - </b>Təxminən 12% (hər 8 nəfərdən 1-i) yeniyetmə başqalarına kiberzorakılıq etdiyini deyir. Oğlanlar (14%) qızlardan (9%) daha çox bunu bildirir. Bu göstərici 2018-ci illə müqayisədə artıb: oğlanlarda 11%-dən, qızlarda 7%-dən yüksəlib.</li>
+      <li><b>Kiberzorakılığa məruz qalmaq - </b>Yeniyetmələrin 15%-i (təxminən hər 6 nəfərdən 1-i) kiberzorakılığa məruz qalıb. Göstəricilər oğlanlarda 15%, qızlarda 16% olmaqla demək olar eynidir. Bu da 2018-ci illə müqayisədə artımı göstərir: oğlanlarda 12%-dən 15%-ə, qızlarda 13%-dən 16%-ə.</li>
+      <li><b>Fiziki dava - </b>Hər 10 yeniyetmədən 1-i fiziki davaya qarışıb. Burada gender fərqi nəzərə çarpır: oğlanlarda 14%, qızlarda 6%.</li>
+    </ul>
+    <b>Genderə xas tendensiyalar və həllər</b>
+      <p>Nəticələr zorakılıq davranışında gender fərqlərini göstərir. Oğlanlar daha çox aqressiya və fiziki davaya meyllidir — bu isə emosiyaların tənzimlənməsi və müsbət sosial münasibətlərə yönəlmiş müdaxilələrin vacibliyini vurğulayır.</p>
+      <p>Digər tərəfdən, xüsusilə kiberzorakılıq sahəsində qızlar arasında artım rəqəmsal təhlükəsizlik, empatiya və inklüziv məktəb mühitini təşviq edən gender-həssas həllərə ehtiyacı göstərir.</p>
+    <b>Kiberzorakılıq: artan narahatlıq</b>
       <p>Kiberzorakılıq yeniyetmələr üçün unikal problemlər yaradır — məktəb sərhədlərini aşaraq ev və şəxsi həyatlarına qədər uzanır.</p>
       <i>2018–2022 məlumatları artımı göstərir:</i>
     <ul>
@@ -282,16 +272,17 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
     <p>Məktəb Yaşlı Uşaqlarda Sağlamlıq Davranışı (HBSC) tədqiqatı haqqında
     Bu beynəlxalq hesabat 44 ölkə və regiondan 279 000-dən çox gəncin məlumatlarına əsaslanır. İkinci cild zorakılıq, kiberzorakılıq və fiziki davaya dair vacib məlumatlar təqdim edir.</p>
     <p>HBSC WHO ilə əməkdaşlıqda aparılan çoxölkəli tədqiqatdır və hər 4 ildən bir keçirilir. Məqsəd 11, 13 və 15 yaşlı yeniyetmələrin sağlamlıq davranışı, rifahı və sosial mühitini anlamaq və siyasətə istiqamət verməkdir.</p>
-    </div>
   </div>
+</div>
 
 <div class="accordion-item">
     <button class="accordion-header">
       <span>İstinadlar</span>
       <span class="icon">+</span>
     </button>
-    <div class="accordion-content"> <p>StopBullying.gov – What is Cyberbullying Official U.S. government portal with guides, legal info, and prevention tools.</p>
-    <p>WHO Europe – Cyberbullying statistics report</p>
-    <p>Reliable international data (e.g., 2018–2022 increase in cyberbullying among adolescents).</p>
-    </div>
+  <div class="accordion-content">                 <p>StopBullying.gov – What is
+      Cyberbullying Official U.S. government portal with guides, legal info, and prevention tools.<?p>
+      <p>WHO Europe – Cyberbullying statistics report</p>
+     <p>Reliable international data (e.g., 2018–2022 increase in cyberbullying among adolescents).</p>
   </div>
+</div>
