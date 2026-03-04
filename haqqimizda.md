@@ -24,8 +24,8 @@
     <h2>Əməkdaşlar</h2>
     <ul class="partners-list">
       <li>
-        <img src="/assets/images/etx-logo.png" alt="ETX logo">
-        <a href="https://etx.example.com" target="_blank">ETX - Elektron Təhlükəsizlik Xidməti</a>
+        <img src="/assets/images/etxlogo.jpg" alt="ETX logo">
+        <a href="https://www.cert.az/" target="_blank">ETX - Elektron Təhlükəsizlik Xidməti</a>
       </li>
       <!-- İstədiyin qədər əlavə edə bilərsən -->
     </ul>
