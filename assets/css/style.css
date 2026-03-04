@@ -1100,104 +1100,73 @@ ul.report-links li a:hover {
   text-decoration: underline;
   color: #6366f1;
 }
-/* ===== Kömək Al Page Styling ===== */
+/* Kömək Al page */
 .komek-al-page {
-  padding: 28px 16px;
-  max-width: 900px;
-  margin: 0 auto;
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", sans-serif;
+  padding: 20px 0;
+  font-family: "Inter", sans-serif;
 }
 
-/* Page title */
-.komek-al-page h1 {
-  font-size: 42px;
-  margin-bottom: 14px;
-  color: #1f2937;
-  text-align: center;
+.komek-al-page .section {
+  margin-bottom: 32px;
 }
 
-/* Kicker paragraph */
+.komek-al-page h1.page-title {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
 .komek-al-page .kicker {
   font-size: 16px;
-  color: #6b7280;
-  text-align: center;
-  margin-bottom: 28px;
+  color: #4b5563;
+  margin-bottom: 24px;
 }
 
-/* Sections */
-.komek-al-page .section {
-  border: 1px solid rgba(148,163,184,.35);
-  border-radius: 24px;
-  background: rgba(255,255,255,.98);
-  backdrop-filter: blur(12px);
-  padding: 20px 26px;
-  margin-bottom: 24px;
-  box-shadow: 0 22px 60px rgba(15,23,42,.08);
+.komek-al-page .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.komek-al-page .card {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.komek-al-page .section:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 28px 70px rgba(15,23,42,.12);
+.komek-al-page .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
 }
 
-/* Section headings */
-.komek-al-page .section h2 {
-  font-size: 20px;
-  margin-bottom: 14px;
-  color: #4f46e5; /* accent color */
-}
-
-/* Lists */
-.komek-al-page .section ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-.komek-al-page .section ul li {
-  padding: 8px 12px;
-  font-size: 16px;
-  line-height: 1.6;
-  border-bottom: 1px solid rgba(148,163,184,.2);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.komek-al-page .section ul li:last-child {
-  border-bottom: none;
-}
-
-/* Links */
-.komek-al-page .section ul li a {
-  color: #4f46e5;
-  text-decoration: none;
+.komek-al-page .card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
   font-weight: 600;
-  transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.komek-al-page .section ul li a:hover {
-  color: #6366f1;
-  transform: translateX(4px);
-}
-
-/* Strong emphasis in list */
-.komek-al-page .section ul li strong {
   color: #111827;
+}
+
+.komek-al-page .card p {
+  margin: 0;
+  font-size: 16px;
   font-weight: 700;
+  color: #1f2937;
 }
 
-/* Optional: make emergency numbers pop */
-.komek-al-page .section ul li span.number {
-  font-weight: 900;
-  color: #ef4444; /* red accent for urgency */
-  margin-left: 6px;
+.komek-al-page .card a {
+  display: block;
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.25s ease;
 }
 
-/* Responsive adjustments */
-@media (max-width: 640px){
-  .komek-al-page h1 { font-size: 32px; }
-  .komek-al-page .section { padding: 16px 18px; }
-  .komek-al-page .section h2 { font-size: 18px; }
+.komek-al-page .card a:hover {
+  color: #1e40af;
+  text-decoration: underline;
 }
