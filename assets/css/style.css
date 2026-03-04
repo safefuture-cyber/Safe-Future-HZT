@@ -1241,17 +1241,6 @@ body.qanunvericilik-page {
   font-size: 1rem;
 }
 
-.qanunvericilik-page a {
-  color: #0b3d91;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.qanunvericilik-page a:hover {
-  color: #ff6b6b;
-  text-decoration: underline;
-}
-
 .qanunvericilik-page strong {
   color: #0b3d91;
 }
