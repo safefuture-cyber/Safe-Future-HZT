@@ -244,7 +244,7 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
     <p>Məktəbdə zorakılığın ümumi səviyyəsi 2018-ci ildən bəri sabit qalsa da, gənclərin ünsiyyətinin getdikcə rəqəmsallaşması səbəbindən kiberzorakılıq artıb və bu, yeniyetmələrin həyatına ciddi təsir göstərə bilər.</p>
     <b>Əsas nəticələr</b>
     <ul>
-      <li><b>Məktəbdə başqalarına zorakılıq etmək - <b>Yeniyetmələrin orta hesabla 6%-i məktəbdə başqalarına zorakılıq edir. Bu davranış oğlanlar arasında (8%) qızlara (5%) nisbətən daha çox yayılıb.</li>
+      <li><b>Məktəbdə başqalarına zorakılıq etmək - </b>Yeniyetmələrin orta hesabla 6%-i məktəbdə başqalarına zorakılıq edir. Bu davranış oğlanlar arasında (8%) qızlara (5%) nisbətən daha çox yayılıb.</li>
       <li><b>Məktəbdə zorakılığa məruz qalmaq - </b>Yeniyetmələrin təxminən 11%-i məktəbdə zorakılığa məruz qaldığını bildirib. Oğlan və qızlar arasında ciddi fərq yoxdur.</li>
       <li><b>Başqalarına kiberzorakılıq etmək - </b>Təxminən 12% (hər 8 nəfərdən 1-i) yeniyetmə başqalarına kiberzorakılıq etdiyini deyir. Oğlanlar (14%) qızlardan (9%) daha çox bunu bildirir. Bu göstərici 2018-ci illə müqayisədə artıb: oğlanlarda 11%-dən, qızlarda 7%-dən yüksəlib.</li>
       <li><b>Kiberzorakılığa məruz qalmaq - </b>Yeniyetmələrin 15%-i (təxminən hər 6 nəfərdən 1-i) kiberzorakılığa məruz qalıb. Göstəricilər oğlanlarda 15%, qızlarda 16% olmaqla demək olar eynidir. Bu da 2018-ci illə müqayisədə artımı göstərir: oğlanlarda 12%-dən 15%-ə, qızlarda 13%-dən 16%-ə.</li>
@@ -281,9 +281,9 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
       <span>İstinadlar</span>
       <span class="icon">+</span>
     </button>
-  <div class="accordion-content">                 <p>StopBullying.gov – What is
-      Cyberbullying Official U.S. government portal with guides, legal info, and prevention tools.<?p>
-      <p>WHO Europe – Cyberbullying statistics report</p>
-     <p>Reliable international data (e.g., 2018–2022 increase in cyberbullying among adolescents).</p>
+  <div class="accordion-content">                <p>StopBullying.gov – What is
+      Cyberbullying Official U.S. government portal with guides, legal info, and prevention tools.</p>
+    <p>WHO Europe – Cyberbullying statistics report</p>
+    <p>Reliable international data (e.g., 2018–2022 increase in cyberbullying among adolescents).</p>
   </div>
 </div>
