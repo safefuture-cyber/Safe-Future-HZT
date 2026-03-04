@@ -986,3 +986,109 @@ ul.report-links li a:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
 }
+/* ===== Haqqımızda Səhifəsi ===== */
+.about-page {
+  padding: 24px 0;
+}
+
+.about-page .page-title {
+  font-size: 32px;
+  margin-bottom: 12px;
+  color: var(--accent);
+}
+
+.about-page .kicker {
+  font-size: 16px;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+
+.about-page .section {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255,255,255,.98);
+  backdrop-filter: blur(14px);
+  padding: 20px;
+  margin-bottom: 18px;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.about-page .section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 40px rgba(15,23,42,.08);
+}
+
+.about-page .section h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: var(--accent);
+}
+
+.about-page .team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-page .team-list li {
+  background: rgba(255,255,255,.95);
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.about-page .team-list li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 60px rgba(15,23,42,.1);
+}
+
+/* Partner üçün şəkil və link */
+.about-page .partners-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-page .partners-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 140px;
+  text-align: center;
+  background: rgba(255,255,255,.95);
+  padding: 12px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.about-page .partners-list li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 60px rgba(15,23,42,.12);
+}
+
+.about-page .partners-list li img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.about-page .partners-list li a {
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.about-page .partners-list li a:hover {
+  text-decoration: underline;
+}
