@@ -93,7 +93,11 @@
       !cfg.apiKey ||
       cfg.apiKey === "REPLACE_ME" ||
       !cfg.authDomain ||
-      cfg.authDomain === "REPLACE_ME.firebaseapp.com";
+      cfg.authDomain === "REPLACE_ME.firebaseapp.com" ||
+      !cfg.projectId ||
+      cfg.projectId === "REPLACE_ME" ||
+      !cfg.appId ||
+      cfg.appId === "REPLACE_ME";
 
     if (missingConfig || typeof firebase === "undefined") {
       console.warn("[auth] Firebase config is not set yet.");
@@ -114,7 +118,7 @@
     openModal();
     if (!firebaseReady && errorEl) {
       errorEl.textContent =
-        "Hazırda auth test rejimindədir. Firebase config əlavə edəndən sonra giriş tam real işləyəcək.";
+        "Hazırda auth test rejimindədir. Firebase config (apiKey, authDomain, projectId, appId) əlavə edəndən sonra giriş tam işləyəcək.";
     }
   });
 

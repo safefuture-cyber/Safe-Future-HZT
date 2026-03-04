@@ -259,7 +259,9 @@ a{color:inherit;text-decoration:none}
 .auth-backdrop{
   position:fixed;
   inset:0;
-  background: rgba(0,0,0,.75);
+  background: radial-gradient(circle at 0 0, rgba(129,140,248,.45), transparent 55%),
+              radial-gradient(circle at 100% 100%, rgba(59,130,246,.5), transparent 55%),
+              rgba(15,23,42,.70);
   display:flex;
   align-items:center;
   justify-content:center;
@@ -272,15 +274,15 @@ a{color:inherit;text-decoration:none}
   position:absolute;
   left:-20%;
   right:-20%;
-  top:10%;
-  bottom:10%;
+  top:6%;
+  bottom:6%;
   background:
-    radial-gradient(120% 200% at 0% 20%, rgba(124,92,255,.9), transparent 60%),
-    radial-gradient(120% 200% at 100% 40%, rgba(59,130,246,.8), transparent 60%);
-  filter: blur(50px);
-  opacity:.9;
-  mix-blend-mode:screen;
-  animation: auroraWave 9s ease-in-out infinite alternate;
+    radial-gradient(120% 200% at 0% 0%, rgba(191,219,254,.85), transparent 60%),
+    radial-gradient(120% 200% at 100% 0%, rgba(196,181,253,.85), transparent 60%);
+  filter: blur(60px);
+  opacity:.85;
+  mix-blend-mode:soft-light;
+  animation: auroraWave 14s ease-in-out infinite alternate;
   pointer-events:none;
 }
 
@@ -293,9 +295,9 @@ a{color:inherit;text-decoration:none}
   border-radius:28px;
   border:1px solid rgba(191,219,254,.9);
   background:
-    radial-gradient(900px 500px at 0% 0%, rgba(191,219,254,.85), transparent 65%),
-    radial-gradient(700px 480px at 100% 0%, rgba(196,181,253,.8), transparent 65%),
-    #0b1220;
+    radial-gradient(900px 500px at 0% 0%, rgba(219,234,254,.96), transparent 65%),
+    radial-gradient(700px 480px at 100% 0%, rgba(221,214,254,.96), transparent 65%),
+    #f9fafb;
   box-shadow: 0 30px 80px rgba(15,23,42,.65);
   padding:26px 26px 20px;
   position:relative;
@@ -323,22 +325,22 @@ a{color:inherit;text-decoration:none}
 .auth-subtitle{
   margin:0 0 14px;
   font-size:13px;
-  color:var(--muted);
+  color:#6b7280;
 }
 
 .auth-tabs{
   display:inline-flex;
   padding:3px;
   border-radius:999px;
-  background: rgba(15,23,42,.9);
-  border:1px solid rgba(148,163,184,.6);
+  background: rgba(15,23,42,.04);
+  border:1px solid rgba(191,219,254,.9);
   margin-bottom:14px;
 }
 
 .auth-tab{
   border:none;
   background:transparent;
-  color:var(--muted);
+  color:#6b7280;
   font-size:13px;
   padding:6px 12px;
   border-radius:999px;
@@ -346,7 +348,7 @@ a{color:inherit;text-decoration:none}
 }
 
 .auth-tab.is-active{
-  background: rgba(248,250,252,.12);
+  background: #0b1220;
   color:#e5e7eb;
 }
 
@@ -366,8 +368,8 @@ a{color:inherit;text-decoration:none}
   font-size:14px;
   padding:10px 12px;
   border-radius:14px;
-  border:1px solid rgba(148,163,184,.6);
-  background: rgba(15,23,42,.9);
+  border:1px solid rgba(209,213,219,1);
+  background:#ffffff;
 }
 
 .auth-submit{
@@ -413,17 +415,17 @@ a{color:inherit;text-decoration:none}
   justify-content:center;
   gap:8px;
   border-radius:999px;
-  border:1px solid rgba(148,163,184,.7);
-  background: rgba(15,23,42,.95);
+  border:1px solid rgba(209,213,219,1);
+  background:#ffffff;
   cursor:pointer;
 }
 
 .auth-google i{
-  color:#7c5cff;
+  color:#4f46e5;
 }
 
 .auth-google:hover{
-  background: rgba(15,23,42,1);
+  background: #eef2ff;
 }
 
 body.auth-open{
