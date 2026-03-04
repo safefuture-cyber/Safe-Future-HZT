@@ -262,14 +262,14 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
     </ul>
     <p>Yeniyetmələrin gündəlik onlayn vaxtının artması fonunda bu rəqəmlər müəllimlər, valideynlər, icma liderləri və siyasətçilərin iştirak etdiyi müdaxilələrin təcili olduğunu göstərir.</p>
     <p>HBSC beynəlxalq koordinatoru Dr. Joanna Inchley qeyd edib:</p>
-    <p><i>“Rəqəmsal dünya öyrənmə və əlaqə üçün böyük imkanlar yaratsa da, kiberzorakılıq kimi problemləri də gücləndirir. Bu, gənclərin psixi və emosional rifahını qorumaq üçün kompleks strategiyalar tələb edir. Hökumətlər, məktəblər və ailələr onlayn riskləri aradan qaldırmaq üçün birlikdə çalışmalıdır. WHO üzrə regional direktor Dr. Hans Henri P. Kluge isə bildirib:</p>
-    <p>“Bu hesabat zorakılıq və şiddətin harada olmasından asılı olmayaraq qarşısını almağa çağırışdır. Gənclər gündə 6 saata qədər onlayn vaxt keçirir və zorakılıqdakı kiçik artımlar belə minlərlə gəncin rifahına ciddi təsir edə bilər.Özünə zərər və intihara qədər uzanan nəticələr gördük. Bu həm sağlamlıq, həm də insan hüquqları məsələsidir"</i></p>
+    <p>“Rəqəmsal dünya öyrənmə və əlaqə üçün böyük imkanlar yaratsa da, kiberzorakılıq kimi problemləri də gücləndirir. Bu, gənclərin psixi və emosional rifahını qorumaq üçün kompleks strategiyalar tələb edir. Hökumətlər, məktəblər və ailələr onlayn riskləri aradan qaldırmaq üçün birlikdə çalışmalıdır. WHO üzrə regional direktor Dr. Hans Henri P. Kluge isə bildirib:</p>
+    <p>“Bu hesabat zorakılıq və şiddətin harada olmasından asılı olmayaraq qarşısını almağa çağırışdır. Gənclər gündə 6 saata qədər onlayn vaxt keçirir və zorakılıqdakı kiçik artımlar belə minlərlə gəncin rifahına ciddi təsir edə bilər.Özünə zərər və intihara qədər uzanan nəticələr gördük. Bu həm sağlamlıq, həm də insan hüquqları məsələsidir"</p>
     <p>ÜST/Avropa yaxın zamanda uşaqları onlayn zərərlərdən qorumağa dair ilk mövqe sənədini dərc edib. Bu sənəd hökumətlərə texnologiya şirkətlərinə vahid tələblər formalaşdırmaqda kömək edəcək və məqsəd uşaqlar üçün sağlam onlayn mühit yaratmaqdır.</p>
     <p>Sübutlara əsaslanan müdaxilələr üçün tərəfdaşların səfərbərliyi</p>
     <p>HBSC tədqiqatı yeniyetmələr arasında zorakılığın mürəkkəbliyini və sosial, mədəni, texnoloji amillərin rolunu göstərir. Hesabat Avropa, Mərkəzi Asiya və Kanadada gənclərin sağlamlığını və rifahını yaxşılaşdırmaq üçün bütün səviyyələrdə tərəfdaşlara dəyərli istiqamət verir.</p>
-    <p><i>Dr. Joanna Inchley:
-    “Missiyamız hər gəncin sağlamlıq və inkişafını dəstəkləyən mühitdə inkişaf etməsini təmin etməkdir. Empatiya, hörmət və davamlılıq formalaşdıran siyasət və proqramlarla yanaşı, cəmiyyətin bütün səviyyələrini əhatə edən sürətli və kompleks müdaxilələr lazımdır."</p></i>
-    <p>Zorakılıqla mübarizəyə investisiya yalnız yeniyetmələrin rifahını dəstəkləmir, həm də psixi sağlamlıqla bağlı səhiyyə xərclərini azaltmaq və təhsil nəticələrini yaxşılaşdırmaq kimi geniş ictimai faydalar verir.</P>
+    <p>Dr. Joanna Inchley:
+    “Missiyamız hər gəncin sağlamlıq və inkişafını dəstəkləyən mühitdə inkişaf etməsini təmin etməkdir. Empatiya, hörmət və davamlılıq formalaşdıran siyasət və proqramlarla yanaşı, cəmiyyətin bütün səviyyələrini əhatə edən sürətli və kompleks müdaxilələr lazımdır."</p>
+    <p>Zorakılıqla mübarizəyə investisiya yalnız yeniyetmələrin rifahını dəstəkləmir, həm də psixi sağlamlıqla bağlı səhiyyə xərclərini azaltmaq və təhsil nəticələrini yaxşılaşdırmaq kimi geniş ictimai faydalar verir.</p>
     <p>Məktəb Yaşlı Uşaqlarda Sağlamlıq Davranışı (HBSC) tədqiqatı haqqında
     Bu beynəlxalq hesabat 44 ölkə və regiondan 279 000-dən çox gəncin məlumatlarına əsaslanır. İkinci cild zorakılıq, kiberzorakılıq və fiziki davaya dair vacib məlumatlar təqdim edir.</p>
     <p>HBSC WHO ilə əməkdaşlıqda aparılan çoxölkəli tədqiqatdır və hər 4 ildən bir keçirilir. Məqsəd 11, 13 və 15 yaşlı yeniyetmələrin sağlamlıq davranışı, rifahı və sosial mühitini anlamaq və siyasətə istiqamət verməkdir.</p>
@@ -282,7 +282,7 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
       <span class="icon">+</span>
     </button>
   <div class="accordion-content">                <p>StopBullying.gov – What is
-      Cyberbullying Official U.S. government portal with guides, legal info, and prevention tools.</p>
+    Cyberbullying Official U.S. government portal with guides, legal info, and prevention tools.</p>
     <p>WHO Europe – Cyberbullying statistics report</p>
     <p>Reliable international data (e.g., 2018–2022 increase in cyberbullying among adolescents).</p>
   </div>
