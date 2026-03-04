@@ -206,7 +206,7 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
     </ul>
     <b>Onlayn platformalara şikayət</b>
     <p>Kiberbullinq çox vaxt onlayn platformaların istifadə qaydalarını pozur. Sosial media və oyun platformalarında şikayət və məxfilik alətləri mövcuddur. Bu platformalara şikayət etməklə zərərli məzmunun silinməsinə və istifadəçinin məhdudlaşdırılmasına nail olmaq olar.</p>
-    <ul>  
+    <ul class="report-links">  
       <li><a href ="https://support.google.com/youtube/answer/2802027">Youtube</a></li>
       <li><a href ="https://www.tiktok.com/safety/en/countering-hate/">TikTok</a></li>
       <li><a href="https://help.snapchat.com/hc/en-us/articles/7012399221652-How-do-I-report-abuse-or-illegal-content-on-Snapchat">Snapchat</a></li>
