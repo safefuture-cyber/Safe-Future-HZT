@@ -888,3 +888,61 @@ label{display:block; font-weight:700; margin:10px 0 6px}
   object-fit:fill; /* çərçivəni tam doldur, boşluq qalmasın */
   flex: 0 0 auto;
 }
+
+/* ===== RESURSLAR ACCORDION ===== */
+
+.accordion{
+  margin-top: 18px;
+}
+
+.accordion-item{
+  margin-bottom:14px;
+}
+
+.accordion-header{
+  width:100%;
+  padding:16px 20px;
+  border-radius: var(--radius);
+  border:1px solid var(--line);
+  background: rgba(255,255,255,.98);
+  backdrop-filter: blur(12px);
+  color:var(--text);
+  font-weight:700;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  cursor:pointer;
+  transition: all .25s ease;
+}
+
+.accordion-header:hover{
+  transform: translateY(-2px);
+  border-color: rgba(129,140,248,.7);
+  box-shadow: 0 18px 40px rgba(15,23,42,.08);
+}
+
+.accordion-content{
+  max-height:0;
+  overflow:hidden;
+  transition:max-height .4s ease;
+  background: rgba(255,255,255,.95);
+  border-left:1px solid var(--line);
+  border-right:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  border-radius: 0 0 var(--radius) var(--radius);
+  padding: 0 20px;
+}
+
+.accordion-content p{
+  padding:16px 0;
+  margin:0;
+  color:var(--muted);
+  line-height:1.6;
+}
+
+.icon{
+  font-size:20px;
+  font-weight:800;
+  color:var(--accent);
+  transition: transform .25s ease;
+}

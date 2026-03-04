@@ -39,3 +39,31 @@
 
   revealEls.forEach((el) => observer.observe(el));
 })();
+// Accordion (Resurslar səhifəsi üçün)
+(function () {
+  const headers = document.querySelectorAll(".accordion-header");
+  if (!headers.length) return;
+
+  headers.forEach((button) => {
+    button.addEventListener("click", () => {
+      const content = button.nextElementSibling;
+      const icon = button.querySelector(".icon");
+
+      const isOpen = content.style.maxHeight;
+
+      // digər açıq bölmələri bağla
+      document.querySelectorAll(".accordion-content").forEach((c) => {
+        c.style.maxHeight = null;
+      });
+      document.querySelectorAll(".icon").forEach((i) => {
+        i.textContent = "+";
+      });
+
+      // kliklənən açıq deyilsə aç
+      if (!isOpen) {
+        content.style.maxHeight = content.scrollHeight + "px";
+        if (icon) icon.textContent = "–";
+      }
+    });
+  });
+})();
