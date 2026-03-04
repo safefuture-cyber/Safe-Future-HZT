@@ -197,14 +197,15 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
       <span class="icon">+</span>
     </button>
   <div class="accordion-content">
-    <p>Kiberbullinq baş verdikdə, vəziyyətin sənədləşdirilməsi və şikayət edilməsi vacibdir ki, buna qarşı tədbir görülə bilsin.</P>
+    <p>Kiberbullinq baş verdikdə, vəziyyətin sənədləşdirilməsi və şikayət edilməsi vacibdir ki, buna qarşı tədbir görülə bilsin.</p>
     <b>Dərhal atılacaq addımlar:</b>
     <ul>
       <li>Kiberbullinq mesajlarına cavab vermə və onları başqalarına ötürmə</li>
       <li>Sübutları saxla. Kiberbullinq hallarının tarixini, vaxtını və təsvirini qeyd et. Ekran görüntülərini, e-poçtları və mesajları saxla və mümkün olduqda çap et</li>
       <li>Bullinq edən şəxsi blokla</li>
+    </ul>
     <b>Onlayn platformalara şikayət</b>
-    <p>Kiberbullinq çox vaxt onlayn platformaların istifadə qaydalarını pozur. Sosial media və oyun platformalarında şikayət və məxfilik alətləri mövcuddur. Bu platformalara şikayət etməklə zərərli məzmunun silinməsinə və istifadəçinin məhdudlaşdırılmasına nail olmaq olar.</P>
+    <p>Kiberbullinq çox vaxt onlayn platformaların istifadə qaydalarını pozur. Sosial media və oyun platformalarında şikayət və məxfilik alətləri mövcuddur. Bu platformalara şikayət etməklə zərərli məzmunun silinməsinə və istifadəçinin məhdudlaşdırılmasına nail olmaq olar.</p>
     <ul>  
       <li>YouTube Link Target:https://support.google.com/youtube/answer/2802027</li>
       <li>TikTok Link Target:https://www.tiktok.com/safety/en/countering-hate/</li>
@@ -218,7 +219,7 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
       <li>PlayStation Party Chat Link Target:https://www.playstation.com/en-us/support/account/ps5-report-behaviour/</li>
       <li>Tumblr Link Target:https://help.tumblr.com/reporting-content/</li>
     </ul>  
-    <p>Hüquq-mühafizə orqanlarına şikayət<p>
+    <p>Hüquq-mühafizə orqanlarına şikayət</p>
     <p>Aşağıdakı hallar olduqda kiberbullinq cinayət sayılır və polisə müraciət edilməlidir:</p>
     <ul>  
       <li>zorakılıq hədələri</li>
@@ -230,8 +231,8 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
     <p>Məktəbə məlumat vermək</p>
       <p>Kiberbullinq məktəb mühitinə təsir göstərirsə, məktəbə məlumat vermək vacibdir. Məktəb bu məlumat əsasında profilaktika və müdaxilə tədbirləri görə bilər.</p>
       <p>Bir çox yerdə məktəblərin bullinqə qarşı siyasətində kiberbullinq də nəzərə alınır. Bəzi qanunlar məktəbdən kənarda baş verən, lakin məktəb mühitinə təsir edən halları da əhatə edir.</p>
-    </div>
   </div>
+</div>
 
 <div class="accordion-item">
     <button class="accordion-header">
