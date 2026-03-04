@@ -686,11 +686,11 @@ body.auth-open{
   }
 }
 
-.hero-image-shell{
+.hero-image-shell {
   position: relative;
   width: 100%;
-  max-width: 650px;  /* əvvəl 420px idi, indi böyüdülüb */
-  aspect-ratio: 4 / 3;
+  max-width: 700px; /* slightly bigger than 420px */
+  aspect-ratio: 4 / 3; /* keeps the image proportional */
   border-radius: 32px;
   overflow: hidden;
   background: radial-gradient(circle at 0% 0%, #4f46e5, #1f2937 55%, #020617 100%);
@@ -700,17 +700,17 @@ body.auth-open{
   animation: heroFloat 10s ease-in-out infinite alternate;
 }
 
-.hero-image-photo{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  border-radius:inherit;
-  transform:scale(1.02);
-  transition: transform .5s cubic-bezier(.19,.9,.22,1);
+.hero-image-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ensures no distortion */
+  border-radius: inherit;
+  transform: scale(1.02);
+  transition: transform 0.5s cubic-bezier(.19,.9,.22,1);
 }
 
-.hero-image-shell:hover .hero-image-photo{
-  transform:scale(1.06) translateY(-2px);
+.hero-image-shell:hover .hero-image-photo {
+  transform: scale(1.06) translateY(-2px);
 }
 
 @keyframes heroFloat{
