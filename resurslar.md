@@ -218,7 +218,7 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
       <li><a href ="https://support.xbox.com/en-US/help/family-online-safety/enforcement/file-a-complaint">Xbox</a></li>
       <li><a href ="https://www.playstation.com/en-us/support/account/ps5-report-behaviour/">PlayStation</a></li>
       <li><a href="https://help.tumblr.com/reporting-content/">Tumblr</a></li>
-    </ul>  
+    </ul>
     <p>Hüquq-mühafizə orqanlarına şikayət</p>
     <p>Aşağıdakı hallar olduqda kiberbullinq cinayət sayılır və polisə müraciət edilməlidir:</p>
     <ul>  
