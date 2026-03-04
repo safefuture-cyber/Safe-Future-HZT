@@ -3,41 +3,53 @@ layout: default
 ---
 
 <section class="hero">
-  <div class="hero-card" data-reveal="fade-up">
-    <h1>Safe Future</h1>
-    <p class="lead">
-      <strong>Kiber təqibə qarşı təhlükəsiz rəqəmsal gələcək.</strong>
-      10–19 yaşlı gənclər üçün resurslar, dəstək və maarifləndirmə platforması.
-    </p>
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-card" data-reveal="fade-up">
+        <h1>Safe Future</h1>
+        <p class="lead">
+          <strong>Kiber təqibə qarşı təhlükəsiz rəqəmsal gələcək.</strong>
+          10–19 yaşlı gənclər üçün resurslar, dəstək və maarifləndirmə platforması.
+        </p>
 
-    <div class="search-demo" data-reveal="fade-up">
-      <div class="search-demo-bar">
-        <span class="search-icon" aria-hidden="true"></span>
-        <span class="search-text">Onlayn məni nə narahat edir?</span>
+        <div class="search-demo" data-reveal="fade-up">
+          <div class="search-demo-bar">
+            <span class="search-icon" aria-hidden="true"></span>
+            <span class="search-text">Onlayn məni nə narahat edir?</span>
+          </div>
+          <p class="search-caption">
+            Axtardığın mövzunu yazdığın kimi, biz təhlükəsiz resursları göstərək.
+          </p>
+        </div>
+
+        <div class="cta-row">
+          <a class="btn primary" href="{{ '/resurslar/' | relative_url }}">Resurslar</a>
+          <a class="btn" href="{{ '/komek-al/' | relative_url }}">Kömək Al</a>
+          <a class="btn ghost" href="{{ '/konullu-ol/' | relative_url }}">Könüllü Ol</a>
+        </div>
+
+        <div class="hero-stats" data-reveal="fade-up">
+          <div class="stat">
+            <div class="stat-num">10–19</div>
+            <div class="stat-label">hədəf yaş qrupu</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">24/7</div>
+            <div class="stat-label">məlumat & istiqamətləndirmə</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Safe</div>
+            <div class="stat-label">məxfilik prioritetdir</div>
+          </div>
+        </div>
       </div>
-      <p class="search-caption">
-        Axtardığın mövzunu yazdığın kimi, biz təhlükəsiz resursları göstərək.
-      </p>
     </div>
 
-    <div class="cta-row">
-      <a class="btn primary" href="{{ '/resurslar/' | relative_url }}">Resurslar</a>
-      <a class="btn" href="{{ '/komek-al/' | relative_url }}">Kömək Al</a>
-      <a class="btn ghost" href="{{ '/konullu-ol/' | relative_url }}">Könüllü Ol</a>
-    </div>
-
-    <div class="hero-stats" data-reveal="fade-up">
-      <div class="stat">
-        <div class="stat-num">10–19</div>
-        <div class="stat-label">hədəf yaş qrupu</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">24/7</div>
-        <div class="stat-label">məlumat & istiqamətləndirmə</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num">Safe</div>
-        <div class="stat-label">məxfilik prioritetdir</div>
+    <div class="hero-right" aria-hidden="true">
+      <div class="hero-image-shell" data-reveal="fade-up">
+        <div class="hero-image-layer hero-image-layer--primary"></div>
+        <div class="hero-image-layer hero-image-layer--secondary"></div>
+        <div class="hero-image-dots"></div>
       </div>
     </div>
   </div>
