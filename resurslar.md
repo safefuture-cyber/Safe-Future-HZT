@@ -210,7 +210,7 @@ Bütün resurslar kateqoriyalar üzrə təqdim olunur. Başlığa klikləyərək
       <li><a href ="https://support.google.com/youtube/answer/2802027">Youtube</a></li>
       <li><a href ="https://www.tiktok.com/safety/en/countering-hate/">TikTok</a></li>
       <li><a href="https://help.snapchat.com/hc/en-us/articles/7012399221652-How-do-I-report-abuse-or-illegal-content-on-Snapchat">Snapchat</a></li>
-      <li<a href ="https://help.instagram.com/192435014247952">Instagram</a></li>
+      <li><a href ="https://help.instagram.com/192435014247952">Instagram</a></li>
       <li><a href ="https://www.facebook.com/help/181495968648557">Facebook</a></li>
       <li><a href ="https://discord.com/safety/360044103651-reporting-abusive-behavior-to-discord">Discord</a></li>
       <li><a href ="https://help.x.com/en/safety-and-security/report-abusive-behavior">X</a></li>
