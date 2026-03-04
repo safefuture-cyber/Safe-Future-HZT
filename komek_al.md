@@ -6,7 +6,7 @@ permalink: /komek-al/
 <div class="komek-al-page">
 
   <h1 class="page-title">Kömək Al</h1>
-  <p class="kicker">Təcili vəziyyətlər və dəstək üçün əsas istiqamətlər. (Nömrə və linkləri rəsmi mənbələrə uyğun doldurun.)</p>
+  <p class="kicker">Təcili vəziyyətlər və dəstək üçün əsas istiqamətlər.</p>
 
   <!-- Təcili yardım nömrələri -->
   <div class="section emergency-cards">
