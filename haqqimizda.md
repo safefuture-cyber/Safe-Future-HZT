@@ -17,18 +17,13 @@ permalink: /haqqimizda/
 <div class="section">
   <h2>Komanda</h2>
   <ul>
-    <li>Layihə liderləri — <em>adlar</em></li>
-    <li>Komanda üzvləri — <em>adlar</em></li>
+    <li>Komanda üzvləri — <em>Alimə,Aytac,Həmayil,Zərifə</em></li>
   </ul>
 </div>
 
 <div class="section">
   <h2>Əməkdaşlar</h2>
   <ul>
-    <li>AKTA</li>
-    <li>Gənclər Evi</li>
-    <li>Femlex</li>
-    <li>Milli Kibertəhlükəsizlik Mərkəzi</li>
-    <li>və s.</li>
+    <li><strong>ETX</strong> - <strong>E</strong>lektron <strong>T</strong>əhlükəsizlik <strong>X</strong>idməti</li>
   </ul>
 </div>
