@@ -46,16 +46,20 @@
 
   headers.forEach((button) => {
     button.addEventListener("click", () => {
+      const item = button.closest(".accordion-item");
       const content = button.nextElementSibling;
       const icon = button.querySelector(".icon");
 
       const isOpen = content.style.maxHeight;
 
       // digər açıq bölmələri bağla
+      document.querySelectorAll(".accordion-item").forEach((el) => {
+        el.removeAttribute("data-open");
+      });
       document.querySelectorAll(".accordion-content").forEach((c) => {
         c.style.maxHeight = null;
       });
-      document.querySelectorAll(".icon").forEach((i) => {
+      document.querySelectorAll(".accordion-header .icon").forEach((i) => {
         i.textContent = "+";
       });
 
@@ -63,6 +67,7 @@
       if (!isOpen) {
         content.style.maxHeight = content.scrollHeight + "px";
         if (icon) icon.textContent = "–";
+        if (item) item.setAttribute("data-open", "");
       }
     });
   });
