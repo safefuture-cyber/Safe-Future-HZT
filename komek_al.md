@@ -3,35 +3,46 @@ title: Kömək Al
 permalink: /komek-al/
 ---
 
-# Kömək Al
-<p class="kicker">Təcili vəziyyətlər və dəstək üçün əsas istiqamətlər. (Nömrə və linkləri sizdə olan rəsmi mənbələrə uyğun dolduracaqsan.)</p>
+<div class="komek-al-page">
 
-<div class="section">
-  <h2>Təcili yardım nömrələri</h2>
-  <ul>
-    <li>Təcili yardım: <strong>103</strong> (nümunə)</li>
-    <li>Polis: <strong>102</strong> (nümunə)</li>
-  </ul>
-</div>
+  <h1 class="page-title">Kömək Al</h1>
+  <p class="kicker">Təcili vəziyyətlər və dəstək üçün əsas istiqamətlər.</p>
 
-<div class="section">
-  <h2>Psixoloji dəstək xətləri</h2>
-  <ul>
-    <li>Psixoloji dəstək: <em>buraya rəsmi xətti yaz</em></li>
-  </ul>
-</div>
+  <!-- Təcili yardım nömrələri -->
+  <div class="section emergency-cards">
+    <h2>Təcili yardım nömrələri</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Polis</h3>
+        <p><strong>102</strong></p>
+      </div>
+      <div class="card">
+        <h3>Elektron Təhlükəsizlik Xidməti</h3>
+        <p><strong>1654</strong></p>
+      </div>
+      <div class="card">
+        <h3>Uşaq Qaynar Xətti</h3>
+        <p><strong>116111</strong></p>
+      </div>
+    </div>
+  </div>
 
-<div class="section">
-  <h2>Onlayn şikayət linkləri</h2>
-  <ul>
-    <li>İnternet Şikayət Xətti: <em>link</em></li>
-    <li>Platforma şikayət səhifələri (Instagram/Facebook/TikTok) — <em>linklər</em></li>
-  </ul>
-</div>
-
-<div class="section">
-  <h2>Hüquqi məsləhət</h2>
-  <ul>
-    <li>Hüquqi məsləhət mənbələri: <em>buraya yaz</em></li>
-  </ul>
+  <!-- Əlaqəli qurum linkləri -->
+  <div class="section links-cards">
+    <h2>Əlaqəli qurumlar</h2>
+    <div class="grid">
+      <div class="card">
+        <a href="https://www.cert.az/" target="_blank">Elektron Təhlükəsizlik Xidməti</a>
+      </div>
+      <div class="card">
+        <a href="https://family.gov.az/az" target="_blank">AR Ailə, Qadın və Uşaq Problemləri üzrə Dövlət Komitəsi</a>
+      </div>
+      <div class="card">
+        <a href="https://mia.gov.az/" target="_blank">AR Daxili İşlər Nazirliyi | DİN</a>
+      </div>
+      <div class="card">
+        <a href="https://akta.az/az" target="_blank">Azərbaycan Kibertəhlükəsizlik Təşkilatları Assosiasiyası | AKTA</a>
+      </div>
+    </div>
+  </div>
 </div>
