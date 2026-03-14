@@ -1369,6 +1369,18 @@ ul.report-links li a:hover {
   background: linear-gradient(180deg, #7c5cff 0%, #6d28d9 100%);
   border-radius: 2px;
 }
+
+/* Əlaqə forması uğur mesajı */
+.form-success {
+  padding: 18px 20px;
+  background: linear-gradient(135deg, rgba(167,243,208,.4), rgba(187,247,208,.3));
+  border: 1px solid rgba(34,197,94,.35);
+  border-radius: var(--radius);
+  color: #166534;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
 body.qanunvericilik-page {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f7f9fc;

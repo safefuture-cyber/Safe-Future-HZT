@@ -72,3 +72,12 @@
     });
   });
 })();
+
+// Əlaqə forması: göndərildikdən sonra uğur mesajı
+(function () {
+  if (typeof window === "undefined" || window.location.search.indexOf("sent=1") === -1) return;
+  var msg = document.getElementById("form-success-msg");
+  var form = document.getElementById("contact-form");
+  if (msg) msg.style.display = "block";
+  if (form) form.style.display = "none";
+})();
