@@ -20,7 +20,11 @@ permalink: /elaqe/
 <div class="section contact-form-section">
   <h2>Əlaqə forması</h2>
   <p id="form-success-msg" class="form-success" style="display:none;">Mesajınız uğurla göndərildi. Tezliklə cavab verəcəyik.</p>
-  <form id="contact-form" action="#" method="post">
+  <!-- Formspree: action-dakı YOUR_FORM_ID-ni formspree.io-dan aldığın ID ilə əvəz et. Bax: CONTACT_FORM_SETUP.md -->
+  <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input type="hidden" name="_subject" value="Safe Future əlaqə formasından yeni mesaj" />
+    <input type="hidden" name="_next" value="https://safefuture.site/elaqe/?sent=1" />
+    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
     <div class="row">
       <div>
         <label for="contact-name">Ad</label>
@@ -28,7 +32,7 @@ permalink: /elaqe/
       </div>
       <div>
         <label for="contact-email">E-poçt</label>
-        <input id="contact-email" name="email" type="email" required placeholder="name@email.com" />
+        <input id="contact-email" name="_replyto" type="email" required placeholder="name@email.com" />
       </div>
     </div>
 
@@ -38,23 +42,3 @@ permalink: /elaqe/
     <button class="btn primary" type="submit">Göndər</button>
   </form>
 </div>
-
-<script>
-(function() {
-  var form = document.getElementById("contact-form");
-  var successMsg = document.getElementById("form-success-msg");
-  if (!form || !successMsg) return;
-  form.addEventListener("submit", function(e) {
-    e.preventDefault();
-    var name = (form.querySelector("[name=name]") && form.querySelector("[name=name]").value) || "";
-    var email = (form.querySelector("[name=email]") && form.querySelector("[name=email]").value) || "";
-    var message = (form.querySelector("[name=message]") && form.querySelector("[name=message]").value) || "";
-    var subject = "Safe Future əlaqə: " + (name || "Ad yoxdur");
-    var body = "Ad: " + name + "\nE-poçt: " + email + "\n\nMesaj:\n" + message;
-    var mailto = "mailto:safefuture6@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
-    window.location.href = mailto;
-    form.style.display = "none";
-    successMsg.style.display = "block";
-  });
-})();
-</script>

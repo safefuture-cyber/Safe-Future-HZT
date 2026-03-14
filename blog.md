@@ -7,6 +7,7 @@ permalink: /blog/
 # Blog / Xəbərlər
 <p class="kicker">Aktual məqalələr, layihə yenilikləri, müsahibələr və uğur hekayələri.</p>
 
+<div class="blog-page">
 <div class="section">
   <h2>Tezliklə</h2>
   <ul>
@@ -14,4 +15,5 @@ permalink: /blog/
     <li>Şəxsi məlumatları necə qorumalı?</li>
     <li>Mütəxəssis müsahibələri (psixoloq, hüquqşünas)</li>
   </ul>
+</div>
 </div>
