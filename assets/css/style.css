@@ -644,13 +644,13 @@ body.auth-open{
   min-width:0;
   border:none;
   background:transparent;
-  color:var(--text);
+  color:#fff;
   font:inherit;
   font-size:14px;
   outline:none;
 }
 .search-input::placeholder{
-  color:var(--muted);
+  color:rgba(255,255,255,.6);
 }
 .search-text{
   display:inline-block;
@@ -1312,9 +1312,6 @@ ul.report-links li a:hover {
   animation: none;
 }
 
-.komek-al-page .card:not(:hover) {
-  animation: cardIn .5s ease backwards, cardFloat 4s ease-in-out infinite;
-}
 
 .komek-al-page .card:nth-child(1):not(:hover){ animation-delay: .05s, 0s; }
 .komek-al-page .card:nth-child(2):not(:hover){ animation-delay: .12s, .3s; }
