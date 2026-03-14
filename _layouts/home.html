@@ -11,10 +11,10 @@ layout: default
     </p>
 
     <div class="search-demo" data-reveal="fade-up">
-      <div class="search-demo-bar">
-        <span class="search-icon" aria-hidden="true"></span>
-        <span class="search-text">Onlayn məni nə narahat edir?</span>
-      </div>
+      <form class="search-demo-bar" data-search-form role="search" action="{{ '/search/' | relative_url }}" method="get" data-base-url="{{ '' | relative_url }}">
+        <button type="submit" class="search-trigger" aria-label="Axtar"><span class="search-icon" aria-hidden="true"></span></button>
+        <input type="search" class="search-input" name="q" placeholder="Onlayn məni nə narahat edir?" autocomplete="off" aria-label="Axtarış" />
+      </form>
       <p class="search-caption">
         Axtardığın mövzunu yazdığın kimi, biz təhlükəsiz resursları göstərək.
       </p>
